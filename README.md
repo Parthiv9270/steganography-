@@ -1,11 +1,11 @@
-# 🔒 Image Steganography with Python (OpenCV)
+# Image Steganography with Python (OpenCV)
 
 This project demonstrates a simple **image steganography technique** using Python and OpenCV.  
 It allows you to **hide a secret message inside an image** and later retrieve it using a password.
 
 ---
 
-## 📌 Features
+##  Features
 - Hide a text message inside an image.
 - Retrieve the hidden message with the correct password.
 - Uses basic pixel value manipulation.
@@ -13,7 +13,7 @@ It allows you to **hide a secret message inside an image** and later retrieve it
 
 ---
 
-## ⚙️ Requirements
+##  Requirements
 Make sure you have Python installed along with the required libraries:
 
 ```bash
@@ -22,7 +22,7 @@ pip install opencv-python
 
 ---
 
-## ▶️ Usage
+##  Usage
 
 1. Place your input image in the project folder (e.g., `img1.jpeg`).
 2. Run the script:
@@ -44,7 +44,7 @@ python py.py
 
 ---
 
-## 📂 File Structure
+##  File Structure
 ```
 .
 ├── img1.jpeg              # Original image (input)
@@ -63,7 +63,7 @@ Enter secret message: Hello World
 Enter password: 1234
 ```
 
-➡️ Generates `encryptedmsg1.jpeg` with hidden message.
+➡ Generates `encryptedmsg1.jpeg` with hidden message.
 
 **Decryption:**
 ```
@@ -73,7 +73,7 @@ Decryption message: Hello World
 
 ---
 
-## ⚠️ Notes
+##  Notes
 - This is a **basic steganography method** (not secure for real-world use).
 - Message length is not stored separately, so encryption and decryption must use the same image and session.
 - Password is only used for verification, not actual cryptographic encryption.
@@ -87,4 +87,4 @@ Decryption message: Hello World
 
 ---
 
-👨‍💻 Developed with ❤️ using Python & OpenCV
+ Developed with ❤️ using Python & OpenCV
